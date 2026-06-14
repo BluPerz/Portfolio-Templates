@@ -44,8 +44,8 @@ I'm an Information Technology student and aspiring full-stack developer focused 
 ---
 
 ## 📫 Connect With Me
-- LinkedIn: https://www.linkedin.com/in/am-prio-008684374/  
-- Email: 049@gmail.com  
+- LinkedIn: https://www.linkedin.com/in/allen-mhickel-tuprio-008684374/?skipRedirect=true
+- Email: amprio049@gmail.com  
 
 ---
 
