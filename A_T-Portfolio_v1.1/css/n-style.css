@@ -127,16 +127,6 @@ a { text-decoration: none; color: inherit;}
     transform: translateY(0);
 }
 
-/* Footer */
-footer{
-    width: 100%;
-    padding: 16px 12%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-top: 1px solid var(--border);
-    background-color: var(--bg-primary);
-}
 /* hamburger icon for smaller devices */
 .hamburger {
     display: none;
@@ -168,9 +158,11 @@ nav {
 }
 
 .nav-links {
+    color: var(--text-secondary);
     list-style: none;
     display: flex;
-    gap: 10px;
+    font-size: clamp(0.6rem, 2vw, 0.9rem);
+    gap: 20px;
 }
 
 .nav-links a.active {
@@ -410,6 +402,20 @@ nav {
     width: 200px;
     padding: 8px;
     border-radius: 15px;
+}
+
+/* Footer */
+footer{
+    width: 100%;
+    padding: 24px 12%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--text-secondary);
+    border-top: 1px solid var(--border);
+    background-color: var(--bg-primary);
 }
 
 /* media queries */
